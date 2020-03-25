@@ -12,7 +12,8 @@ Wooden frame with only corners.
 
 ------------
 
-####Sample Usage:
+### Sample Usage:
+
 ```javascript
         var zeytoonAF = new ZeytoonArtFrame(
             get('MyContent1'),                   // Html Element Content 
@@ -28,14 +29,15 @@ Wooden frame with only corners.
         );
 
 ```
-#### ZeytoonArtFrame Parameters
+
+#### **new ZeytoonArtFrame(1,2,3) Parameters**
 |#| Name | Description                    | Sample Value                            |Default Value|
 |-| ----------- | ----------------------------------- |----------------------------|------|
 |1| content      | Element content to display the art frame        |  doucument.getElementById ('MyContent1')|No|
 |2| Image URL   |  Image address   | 'Image/Artwork/pic(1).jpg' | No|
 |3| Options | Frame options JSON |  See table options| Yes |
 
-###Frame Options:
+#### **Parameter 3 (Options):**
 |#| Name | Sample Value                            |Default Value|
 |-| ----------- | ----------------------------|------|
 |1| WidthImage | '600px' or 'auto' | 'auto' |
@@ -44,7 +46,8 @@ Wooden frame with only corners.
 |4| FrameStyleNumber | 8 | 1 |
 |5| FrameCorner | true or false | false |
 |6| FrameCenter | true or false | false |
-```json
+
+```javascript
 var DefaultOptions = {
         WidthImage: 'auto',
         HeightImage: '500px',
