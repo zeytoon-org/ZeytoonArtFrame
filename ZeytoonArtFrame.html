@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Zeytoon Art Frame</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/Main.css">
+    <link rel="stylesheet" href="css/ZeytoonArtFrame.css">
+</head>
+
+<body>
+    
+    <div id="MainDiv" class="MainContent">
+        <h1>Zeytoon Art Frame v1.0</h1>
+        <a href="https://github.com/rostamkhani/ZeytoonArtFrame">https://github.com/rostamkhani/ZeytoonArtFrame</a>
+        <div id="MyContent1" class="ZArtContent"></div>
+        <div id="MyContent2" class="ZArtContent"></div>
+        <div id="MyContent3" class="ZArtContent"></div>
+        <div id="MyContent4" class="ZArtContent"></div>
+        <div id="MyContent5" class="ZArtContent"></div>
+        <div id="MyContent6" class="ZArtContent"></div>
+    </div>
+
+
+    <!-- <script src="js/jquery-3.4.1.min.js"></script> -->
+    <script src="js/ZeytoonArtFrame.js"></script>
+    <script>
+        var numImg = 1;
+
+        var get = (elID) => document.getElementById(elID);
+
+        var zeytoonAF1 = new ZeytoonArtFrame(
+            get('MyContent1'),                  // Html Element Content ZArtFrame
+            'Image/Artwork/pic(1).jpg',         // Image
+            {                                   // Options
+                WidthImage: 'auto',
+                HeightImage: '350px',
+                FrameWidth: '105px',
+                FrameStyleNumber: 8,
+                FrameCorner: true,
+                FrameCenter: true
+            }
+        );
+
+
+
+        var zeytoonAF2 = new ZeytoonArtFrame(
+            get('MyContent2'),                  // Html Element Content ZArtFrame
+            'Image/Artwork/pic(2).jpg',         // Image
+            {                                   // Options
+                WidthImage: 'auto',
+                HeightImage: '550px',
+                FrameWidth: '100px',
+                FrameStyleNumber: 4,
+                FrameCorner: false,
+                FrameCenter: false
+            }
+        );
+
+        var zeytoonAF3 = new ZeytoonArtFrame(
+            get('MyContent3'),                  // Html Element Content ZArtFrame
+            'Image/Artwork/pic(3).jpg',         // Image
+            {                                   // Options
+                FrameStyleNumber: 3,
+            }
+        );
+
+        var zeytoonAF4 = new ZeytoonArtFrame(
+            get('MyContent4'),                  // Html Element Content ZArtFrame
+            'Image/Artwork/pic(4).jpg',         // Image
+            {                                   // Options
+                WidthImage: 'auto',
+                HeightImage: '450px',
+                FrameWidth: '120px',
+                FrameStyleNumber: 8,
+                FrameCorner: true,
+                FrameCenter: false
+            }
+        );
+
+        var zeytoonAF5 = new ZeytoonArtFrame(
+            get('MyContent5'),                  // Html Element Content ZArtFrame
+            'Image/Artwork/pic(5).jpg',         // Image
+            {                                   // Options
+                WidthImage: 'auto',
+                HeightImage: '550px',
+                FrameWidth: 'auto',
+                FrameStyleNumber: 3,
+                FrameCorner: true,
+                FrameCenter: true
+            }
+        );
+
+        var zeytoonAF6 = new ZeytoonArtFrame(
+            get('MyContent6'),                  // Html Element Content ZArtFrame
+            'Image/Artwork/pic(6).jpg',         // Image
+            {                                   // Options
+                WidthImage: 'auto',
+                HeightImage: '550px',
+                FrameWidth: 'auto',
+                FrameStyleNumber: 10,
+                FrameCorner: true,
+                FrameCenter: true
+            }
+        );
+
+
+        // Create Random Sare Hosari 
+        var elMain = document.getElementById('MainDiv');
+        for (let index = 0; index <= 10; index++) {
+            var elContent = document.createElement('div');
+            var num = (index + 7)
+            elContent.id = 'MyContent' + num;
+            elContent.className = 'ZArtContent';
+            elMain.appendChild(elContent);
+
+            var zeytoonAF7 = new ZeytoonArtFrame(
+                get('MyContentNUM'.replace('NUM', num)),                  // Html Element Content ZArtFrame
+                'Image/Artwork/pic(NUM).jpg'.replace('NUM', num),         // Image
+                {                                                       // Options
+                    WidthImage: 'auto',
+                    HeightImage: (Math.round(Math.random() * 35) * 10 + 300) + 'px',
+                    FrameWidth: 'auto',
+                    FrameStyleNumber: Math.round((Math.random() * 9)) + 1,
+                    FrameCorner: true,
+                    FrameCenter: false
+                }
+            );
+
+
+        }
+
+    </script>
+</body>
+
+</html>
