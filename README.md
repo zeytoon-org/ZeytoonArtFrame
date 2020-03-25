@@ -29,15 +29,16 @@ Wooden frame with only corners.
         );
 
 ```
+------------
 
-#### **new ZeytoonArtFrame(1,2,3) Parameters**
+### new ZeytoonArtFrame(1,2,3) Parameters
 |#| Name | Description                    | Sample Value                            |Default Value|
 |-| ----------- | ----------------------------------- |----------------------------|------|
 |1| content      | Element content to display the art frame        |  doucument.getElementById ('MyContent1')|No|
 |2| Image URL   |  Image address   | 'Image/Artwork/pic(1).jpg' | No|
 |3| Options | Frame options JSON |  See table options| Yes |
 
-#### **Parameter 3 (Options):**
+### Parameter 3 (Options):
 |#| Name | Sample Value                            |Default Value|
 |-| ----------- | ----------------------------|------|
 |1| WidthImage | '600px' or 'auto' | 'auto' |
