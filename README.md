@@ -1,4 +1,4 @@
-# ZeytoonArtFrame [DEMO](https://rostamkhani.github.io/ZeytoonArtFrame/ "DEMO")
+> # ZeytoonArtFrame [DEMO](https://rostamkhani.github.io/ZeytoonArtFrame/ "DEMO")
 
 - Zeytoon Art Frame is a JavaScript Library .
 - Quick and easy frame art making .
@@ -48,7 +48,7 @@ Wooden frame with only corners.
 |5| FrameCorner | true or false | false |
 |6| FrameCenter | true or false | false |
 ------------
-####Sample JSON Options:
+#### Sample JSON Options:
 ```javascript 
 var DefaultOptions = {
         WidthImage: 'auto',
