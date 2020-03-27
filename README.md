@@ -59,8 +59,7 @@ var DefaultOptions = {
     } ;
 ```
 
-
-
+------------
 **Help Preserve This Project**
 Support for the continued development of Semantic UI comes directly from the community.
 [![Donate](https://rostamkhani.github.io/ZeytoonDonateButton.png "Donate")](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QMPQGV24Y72PS&source=url "Donate")
