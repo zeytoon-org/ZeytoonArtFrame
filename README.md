@@ -12,7 +12,7 @@ Wooden frame with only corners.
 
 ------------
 
-### Sample Usage:
+#### Sample Usage:
 
 ```javascript
         var zeytoonAF = new ZeytoonArtFrame(
@@ -31,14 +31,14 @@ Wooden frame with only corners.
 ```
 ------------
 
-### new ZeytoonArtFrame(1,2,3) Parameters
+#### new ZeytoonArtFrame(1,2,3) Parameters
 |#| Name | Description                    | Sample Value                            |Default Value|
 |-| ----------- | ----------------------------------- |----------------------------|------|
 |1| content      | Element content to display the art frame        |  doucument.getElementById ('MyContent1')|No|
 |2| Image URL   |  Image address   | 'Image/Artwork/pic(1).jpg' | No|
 |3| Options | Frame options JSON |  See table options| Yes |
 
-### Parameter 3 (Options):
+#### Parameter 3 (Options):
 |#| Name | Sample Value                            |Default Value|
 |-| ----------- | ----------------------------|------|
 |1| WidthImage | '600px' or 'auto' | 'auto' |
@@ -47,8 +47,9 @@ Wooden frame with only corners.
 |4| FrameStyleNumber | 8 | 1 |
 |5| FrameCorner | true or false | false |
 |6| FrameCenter | true or false | false |
-
-```javascript
+------------
+####Sample JSON Options:
+```javascript 
 var DefaultOptions = {
         WidthImage: 'auto',
         HeightImage: '500px',
@@ -60,6 +61,9 @@ var DefaultOptions = {
 ```
 
 ------------
-**Help Preserve This Project**
+
+
+
+> ###### Help Preserve This Project
 Support for the continued development of Semantic UI comes directly from the community.
 [![Donate](https://rostamkhani.github.io/ZeytoonDonateButton.png "Donate")](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QMPQGV24Y72PS&source=url "Donate")
