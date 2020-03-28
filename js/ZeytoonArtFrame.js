@@ -3,6 +3,8 @@
 // 
 var ZeytoonArtFrame = function (elContent, imgUrl, options = null) {
 
+    //console.log(options);
+
     var MyOptions;
     var _this = this;
 
@@ -77,8 +79,8 @@ var ZeytoonArtFrame = function (elContent, imgUrl, options = null) {
     <div style="{ZFCenter} {ZFCenterL}"></div>`;
 
         var styles = {
-            ZArtFrame : 'position: relative; width: fit-content; height: fit-content; -webkit-box-shadow: 2px 5px 17px 2px rgba(0,0,0,0.96); box-shadow: 2px 5px 7px 5px rgba(0,0,0,0.7); background-color: black; ', /* transform: perspective(1000px) rotateY(45deg)  */
-            ZArtPictureBox: ' width: fit-content; height: {--ImageHeight}; position: relative; padding: {--FrameWidth};',
+            ZArtFrame : 'position: relative; width: min-content; height: min-content; -webkit-box-shadow: 2px 5px 17px 2px rgba(0,0,0,0.96); box-shadow: 2px 5px 7px 5px rgba(0,0,0,0.7); background-color: black; ', /* transform: perspective(1000px) rotateY(45deg)  */
+            ZArtPictureBox: ' width: min-content; height: {--ImageHeight}; position: relative; padding: {--FrameWidth};',
             ZArtPictureBoxImg: 'width: {--ImageWidth}; height: {--ImageHeight};',
             BorderShadow: 'width: calc(100% - 2 * {--FrameWidth} ); height: calc(100% - 2 * {--FrameWidth} ); top: 0; bottom: 0; left: 0; right: 0; margin: auto; position: absolute; -webkit-box-shadow: inset 1px 2px 3px 2px rgba(0,0,0,0.7); box-shadow: inset 1px 2px 3px 2px rgba(0,0,0,0.7);',
 
