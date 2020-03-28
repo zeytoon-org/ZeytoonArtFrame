@@ -3,6 +3,7 @@
 - Zeytoon Art Frame is a JavaScript Library .
 - Quick and easy frame art making .
 - Suitable for image galleries and artwork .
+- The number of frames available (is increasing) = 11
 
 Create a wooden frame with flowers in the corners and in the middle.
 ![](https://raw.githubusercontent.com/rostamkhani/ZeytoonArtFrame/master/SampleReadme1.jpg "wooden frame")
