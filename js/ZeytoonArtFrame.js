@@ -201,4 +201,6 @@ var ZeytoonArtFrame = function (elContent, imgUrl, options = null) {
 
     }
     this.Init(MyOptions);
+
+    
 }
