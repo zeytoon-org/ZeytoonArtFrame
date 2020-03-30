@@ -1,4 +1,4 @@
-> # ZeytoonArtFrame [DEMO](https://rostamkhani.github.io/ZeytoonArtFrame/ "DEMO")
+> # ZeytoonArtFrame [DEMO](https://zeytoon-org.github.io/ZeytoonArtFrame/ "DEMO")
 
 - Zeytoon Art Frame is a JavaScript Library .
 - Quick and easy frame art making .
