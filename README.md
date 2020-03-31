@@ -6,7 +6,7 @@
 - The number of frames available (is increasing) = 12
 
 Create a wooden frame with flowers in the corners and in the middle.
-![](https://raw.githubusercontent.com/rostamkhani/ZeytoonArtFrame/master/SampleReadme1.jpg "wooden frame")
+![](https://raw.githubusercontent.com/rostamkhani/ZeytoonArtFrame/master/SampleReadme1.jpg "Wooden frame")
 
 Wooden frame with only corners.
 ![](https://raw.githubusercontent.com/rostamkhani/ZeytoonArtFrame/master/SampleReadme2.jpg)
