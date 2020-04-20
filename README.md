@@ -9,7 +9,7 @@
 - Ability to add a corner flower in the frame
 - Number of frames available (increasing) = 12
 
-Create a wooden frame with flowers in the corners and in the middle.
+Create a wooden frame with flowers in the corners and the middle.
 ![](https://raw.githubusercontent.com/rostamkhani/ZeytoonArtFrame/master/SampleReadme1.jpg "Wooden frame")
 
 Wooden frame with only corners.
